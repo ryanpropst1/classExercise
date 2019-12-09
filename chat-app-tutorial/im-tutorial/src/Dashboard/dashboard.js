@@ -13,7 +13,7 @@ const firebase = require("firebase");
 // of the chat box component or what...
 
 // I will be using both .then and async/await
-// in this tutorial to give a feel of both.
+// in this tutorial to practice using and getting a  better feel of both.
 
 class DashboardComponent extends React.Component {
   constructor() {
