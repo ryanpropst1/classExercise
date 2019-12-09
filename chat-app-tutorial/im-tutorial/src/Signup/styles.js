@@ -1,0 +1,52 @@
+/*
+in materials them you can use styles to create a styles object
+with object classes like main that has key/value pairs that are
+properties and can be imported as javascript between {} to style
+components.
+*/
+
+const styles = theme => ({
+  main: {
+    width: "auto",
+    display: "block", // Fix IE 11 issue.
+    marginLeft: theme.spacing.unit * 3,
+    marginRight: theme.spacing.unit * 3,
+    [theme.breakpoints.up(400 + theme.spacing.unit * 3 * 2)]: {
+      width: 400,
+      marginLeft: "auto",
+      marginRight: "auto"
+    }
+  },
+  // paper class
+  paper: {
+    marginTop: theme.spacing.unit * 8,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme
+      .spacing.unit * 3}px`
+  },
+  // form class
+  form: {
+    width: "100%",
+    marginTop: theme.spacing.unit
+  },
+  submit: {
+    marginTop: theme.spacing.unit * 3
+  },
+  hasAccountHeader: {
+    width: "100%"
+  },
+  logInLink: {
+    width: "100%",
+    textDecoration: "none",
+    color: "#303f9f",
+    fontWeight: "bolder"
+  },
+  errorText: {
+    color: "red",
+    textAlign: "center"
+  }
+});
+
+export default styles;
