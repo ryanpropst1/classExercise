@@ -40,7 +40,7 @@ const styles = theme => ({
   logInLink: {
     width: "100%",
     textDecoration: "none",
-    color: "#303f9f",
+    color: "#006494",
     fontWeight: "bolder"
   },
   errorText: {
